@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "16018196557",
+    "project_id": "heiseiriders-6d14b",
+    "storage_bucket": "heiseiriders-6d14b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16018196557:android:cb6cec86ce58c816773404",
+        "android_client_info": {
+          "package_name": "com.example.protorider0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16018196557-jf1n4sbhaq3cbkr7mu64hlvjf2sj4sj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.protorider0",
+            "certificate_hash": "5747ef080d7a6b329c571f41412582364f64f272"
+          }
+        },
+        {
+          "client_id": "16018196557-82bvksfmhvfsqqj5eu51n44417p7ja8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvaYKiLpCMHcw3GqQ-Pbxb7RzDB7yxhYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16018196557-82bvksfmhvfsqqj5eu51n44417p7ja8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
