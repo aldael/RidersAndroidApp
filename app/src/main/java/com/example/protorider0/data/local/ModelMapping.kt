@@ -4,9 +4,9 @@ import com.example.protorider0.model.Rider
 
 fun Rider.toLocal() = RiderLocal(
     id = id,
-    rider = rider,
-    identidad = identidad,
-    armor = armor,
+    armadura = armadura,
+    identidad_usuario = identidad_usuario,
+    nombre = nombre,
     serie = serie
 )
 
@@ -14,9 +14,9 @@ fun List<Rider>.toLocal() = map(Rider::toLocal)
 
 fun RiderLocal.toExternal() = Rider(
     id = id,
-    rider = rider,
-    identidad = identidad,
-    armor = armor,
+    armadura = armadura,
+    identidad_usuario = identidad_usuario,
+    nombre = nombre,
     serie = serie
 )
 

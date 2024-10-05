@@ -33,10 +33,10 @@ class CardAdapter(private val listener: OnItemClickListener): RecyclerView.Adapt
             CropTransformation.CropType.TOP
         )
         val rider = riders[position]
-        holder.rider.text = rider.rider
+        holder.rider.text = rider.nombre
 
         Glide.with(holder.itemView.context)
-            .load(riders[position].armor)
+            .load(riders[position].armadura)
             .placeholder(R.drawable.rider_pose)
             .apply(RequestOptions.bitmapTransform(cropTransformation))
             .into(holder.armor)

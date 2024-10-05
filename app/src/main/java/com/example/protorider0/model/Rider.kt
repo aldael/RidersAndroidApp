@@ -4,9 +4,8 @@ import java.io.Serializable
 
 data class Rider(
     val id: Int,
-    val rider: String,
-    val identidad: String,
-    val armor: String,
+    val armadura: String,
+    val identidad_usuario: String,
+    val nombre: String,
     val serie: String,
-    var isFav: Boolean = false
-) : Serializable
+) // : Serializable

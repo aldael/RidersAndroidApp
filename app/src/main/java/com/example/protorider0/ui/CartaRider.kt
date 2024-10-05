@@ -48,9 +48,9 @@ class CartaRider: AppCompatActivity() {
         val rider = riderList.find { it.id == riderId }
 
         if (rider != null) {
-            textRider.text = rider.rider
-            textIdentidad.text = rider.identidad
-            Glide.with(this).load(rider.armor).into(imageRider)
+            textRider.text = rider.nombre
+            textIdentidad.text = rider.identidad_usuario
+            Glide.with(this).load(rider.armadura).into(imageRider)
 
 
         }

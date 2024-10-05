@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "riders")
 data class RiderLocal (
     @PrimaryKey val id: Int,
-    val rider: String,
-    val identidad: String,
-    val armor: String,
+    val armadura: String,
+    val identidad_usuario: String,
+    val nombre: String,
     val serie: String
     )

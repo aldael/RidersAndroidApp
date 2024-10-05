@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
                 val userFilter = p0.toString().lowercase()
                 val anothers = adapter.riders
-                val riderFilter = anothers.filter { hero -> hero.rider.lowercase().contains(userFilter) }.toMutableList()
+                val riderFilter = anothers.filter { hero -> hero.nombre.lowercase().contains(userFilter) }.toMutableList()
                 adapter.Update(riderFilter)
             }
 

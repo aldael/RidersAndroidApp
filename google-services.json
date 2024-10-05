@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1096303190725",
+    "firebase_url": "https://heiseiriders-default-rtdb.firebaseio.com",
+    "project_id": "heiseiriders",
+    "storage_bucket": "heiseiriders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096303190725:android:b3fb2946640694ec3286ac",
+        "android_client_info": {
+          "package_name": "com.example.protorider0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096303190725-h6p9436s62vhq2fn3prvp6e0snqj6ouo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf__hbJWCmJ7TVjcfF4WhwQEp92xWTxFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096303190725-h6p9436s62vhq2fn3prvp6e0snqj6ouo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

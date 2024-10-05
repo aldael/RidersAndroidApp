@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class DataRiders {
     // private val BASE_URL = "http://localhost:8080/rider"
-    private val BASE_URL = "https://run.mocky.io/v3/ff4ad82e-711e-4e64-bfb6-bf7a88f6b937"
+    private val BASE_URL = "https://heiseiriders-default-rtdb.firebaseio.com/id"
 
 
     suspend fun getRiders(context: Context) : ArrayList<Rider> {

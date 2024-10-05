@@ -8,7 +8,7 @@ interface RidersDao {
     @Query("SELECT * FROM riders")
     fun getAll() : List<RiderLocal>
 
-    @Query("SELECT * FROM riders WHERE rider = :rider LIMIT 1")
+    @Query("SELECT * FROM riders WHERE nombre = :rider LIMIT 1")
     fun getByName(rider: String) : RiderLocal
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)

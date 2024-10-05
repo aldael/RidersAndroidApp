@@ -8,7 +8,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 
-@Database(entities = [RiderLocal::class], version = 2)
+@Database(entities = [RiderLocal::class], version = 3)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun ridersDao() : RidersDao
 
